@@ -8,11 +8,10 @@ En este segundo nivel se necesita que pepita gaste energía cada vez que se muev
 
 ### Requerimientos
 - Pepita comienza con energía = 500.
-- Configurar las teclas arriba, abajo, izquierda y derecha para que mueva a Pepita a las respectivas posiciones. Pepita debe volar hacia la nueva distancia, y gastará 9 joules de energía por cada kilómetro volado (considerar la distancia entre la posición nueva y la anterior).
-- Cuando Pepita agota su energía, no debe poder moverse mas y su aspecto cambia (se ve gris)
+- Configurar las teclas arriba, abajo, izquierda y derecha para que mueva a Pepita a las respectivas posiciones. Pepita debe volar un casillero en la direccion correspondiente. El gasto de pepita en cada movimiento equivale a haber volado 1 km
+- Cuando Pepita no tiene energía suficiente para volar 1 km, ya no puede moverse y su aspecto cambia (se ve gris)
 
 - **BONUS**: 
   - Antes de mover a pepita, controlar que no se vaya del rango visible del juego.
-  - Luego de moverse, si se queda sin energía, terminar el juego.
   - Utilizar el evento `onTick` para agregar gravedad, haciendo que pepita pierda altura cada `800` milisegundos, es decir, descienda su coordenada `y` en 1, pero _sin perder energía_.
   - Agregar muros y paredes que pepita no puede atravesar

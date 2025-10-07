@@ -26,4 +26,6 @@ Los alimentos aparecen de manera aleatoria en el juego.
    El montoncito de alpiste tiene un peso al azar de entre 40 y 100 gramos.
 
 ### Bonus
-Agregar la posibilidad de dibujar un mapa de manera sensata
+- Si habías hecho el bonus del objeto "muro", entonces haz que puedas tener muchos muros
+- Agregar la posibilidad de dibujar un mapa de manera sensata
+
